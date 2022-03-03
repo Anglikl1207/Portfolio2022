@@ -40,33 +40,27 @@ li {
     margin-bottom: 1em;
 }
 
-
-/* Base Styling for headings.
-    You can and should modify these to fit your site*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 500;
-    font-family: serif;
-}
-
-
 /* For each of your headings at minimum set the margin, size, line-height. 
 Adjust font-weight and other properties as needed. */
 
 h1 {
-    font-size: 5.063em;
-    line-height: 1;
-    margin: 0 0 0.5em 0;
+font-family: Antic Didone;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 86px;
+letter-spacing: 0.01em;
 }
 
 h2 {
-    font-size: 3.375em;
-    line-height: 1.2;
-    margin: 1.5em 0 0.5em 0;
+    font-family: Antic Didone;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    
 }
 
 h3 {
@@ -146,3 +140,8 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
     YOUR STYLES
     Add your styles below.
     ========================== */
+
+    .homepage_intro {
+    text-align:center ;
+
+    }
